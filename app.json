@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fe2f05f3-a7d9-4da7-9aa3-c2180723fb47"
+      }
+    },
+    "owner": "hermantrym"
   }
 }
