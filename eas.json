@@ -3,31 +3,14 @@
     "version": ">= 3.17.1"
   },
   "build": {
-    "production": {
-      "node": "16.20.1",
-      "ios": {
-        "buildConfiguration": "Release"
-      }
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
     "preview": {
-      "extends": "production",
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      },
-      "ios": {
-        "buildType": "ipa"
-      }
+      "distribution": "internal"
     },
-    "development": {
-      "extends": "production",
-      "developmentClient": true,
-      "distribution": "internal",
-      "ios": {
-        "simulator": true,
-        "buildConfiguration": "Debug"
-      }
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
