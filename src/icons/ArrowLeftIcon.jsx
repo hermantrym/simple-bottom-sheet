@@ -1,4 +1,3 @@
-// SWM ICON PACK - figma.com/community/file/942053544758339202
 // Code generated with react-svgr.com/playground/?native=true
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
