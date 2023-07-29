@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "simple-bottom-sheet",
+    "name": "Reanimated",
     "slug": "simple-bottom-sheet",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,9 +15,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ctl.reanimated",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ctl.reanimated",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
