@@ -20,8 +20,8 @@ Install the packages with `yarn`:
 yarn install
 ```
 
-<img src="/assets/yarn-start.png"  width="60%" height="30%">
-And, start the project:
+<img src="/assets/yarn-start.png"  width="60%" height="30%"> </br>
+<br>And, start the project:
 ```
 yarn start
 ```
